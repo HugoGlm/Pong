@@ -1,11 +1,8 @@
 #include "Content.h"
 #include "ShapeCore.h"
 #include "ViewPort.h"
-<<<<<<< Updated upstream
 #include "Player.h"
-=======
 #include "Score.h"
->>>>>>> Stashed changes
 #include <iostream>
 
 Content::Content(RenderWindow* _render)
