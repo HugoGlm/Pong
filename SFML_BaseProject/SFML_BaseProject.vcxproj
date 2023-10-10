@@ -146,6 +146,7 @@
     <ClCompile Include="Line.cpp" />
     <ClCompile Include="Score.cpp" />
     <ClCompile Include="SFML_BaseProject.cpp" />
+    <ClCompile Include="Source.cpp" />
     <ClCompile Include="Square.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="ViewPort.cpp" />
@@ -165,6 +166,7 @@
     <ClInclude Include="Score.h" />
     <ClInclude Include="SFMLCore.h" />
     <ClInclude Include="ShapeCore.h" />
+    <ClInclude Include="Source.h" />
     <ClInclude Include="Square.h" />
     <ClInclude Include="Triangle.h" />
     <ClInclude Include="ViewPort.h" />
