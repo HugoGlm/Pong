@@ -1,11 +1,16 @@
 #include "Content.h"
 #include "ShapeCore.h"
 #include "ViewPort.h"
+<<<<<<< Updated upstream
 #include "Player.h"
+=======
+#include "Score.h"
+>>>>>>> Stashed changes
 #include <iostream>
 
 Content::Content(RenderWindow* _render)
 {
+	engineObjects.push_back(new Score(FVector(100, 200), 0, 50, Color::Red));
 	/*engineObjects.push_back(new Square(FVector(100, 100), 50, Color::Red, false));
 	engineObjects.push_back(new Triangle(FVector(200, 200), FVector(400, 300), FVector(300, 550), Color::Red));
 	engineObjects.push_back(new Circle(FVector(300, 300), 50, Color::Red, false));
