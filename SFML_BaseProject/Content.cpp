@@ -2,12 +2,13 @@
 #include "ShapeCore.h"
 #include "ViewPort.h"
 #include "Player.h"
-#include "Score.h"
+#include "ScoreItem.h"
 #include <iostream>
 
 Content::Content(RenderWindow* _render)
 {
-	engineObjects.push_back(new Score(FVector(100, 200), 0, 50, Color::Red));
+	
+	//engineObjects.push_back(new Score(FVector(100, 200), 0, 50, Color::Red));
 	/*engineObjects.push_back(new Square(FVector(100, 100), 50, Color::Red, false));
 	engineObjects.push_back(new Triangle(FVector(200, 200), FVector(400, 300), FVector(300, 550), Color::Red));
 	engineObjects.push_back(new Circle(FVector(300, 300), 50, Color::Red, false));
@@ -34,11 +35,18 @@ Content::Content(RenderWindow* _render)
 	ball = new Ball(FVector(ViewPort::Width / 2, ViewPort::Height / 2));
 
 	line = new Line(FVector(ViewPort::Width / 2, 0), FVector(ViewPort::Width / 2, ViewPort::Height));
+	player2 = new Player(FVector(ViewPort::Width - 50, ViewPort::Height - 50));
+	score1 = new Score(FVector(300, 25), 0, 35, Color::Blue);
+	score2 = new Score(FVector(450, 25), 0, 35, Color::Red);
+
 
 	engineObjects.push_back(player1);
 	engineObjects.push_back(player2);
 	engineObjects.push_back(ball);
 	engineObjects.push_back(line);
+
+	engineObjects.push_back(new ScoreItem(player1, score1, 10));
+	engineObjects.push_back(new ScoreItem(player2, score2, 10));
 }
 
 Content::~Content()
@@ -55,6 +63,16 @@ void Content::ContentTick()
 	player2->Move(Keyboard::Key::Up, Keyboard::Key::Down);
 	
 	ball->Move();
+
+
+	
+	//TODO incrémenter le score en cas de but
+	//TODO arreter le jeu en cas de score max : appeler la methode GameWin du scoreItem associé
+
+
+
+
+
 
 	/*makeTriangleButton->IsClicked();
 	makeCircleButton->IsClicked();

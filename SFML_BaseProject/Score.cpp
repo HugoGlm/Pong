@@ -16,6 +16,11 @@ Score::~Score()
 {
 }
 
+int Score::GetCurrentScore()
+{
+	return currentScore;
+}
+
 void Score::Draw(RenderWindow& _window)
 {
 	_window.draw(label);

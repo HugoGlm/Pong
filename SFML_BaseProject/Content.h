@@ -4,6 +4,8 @@
 #include "ShapeCore.h"
 #include "Player.h"
 #include "Ball.h"
+#include "Score.h"
+
 
 using namespace std;
 class Content
@@ -23,6 +25,10 @@ class Content
 	Ball* ball = nullptr;
 
 	Line* line = nullptr;
+
+
+	Score* score1 = nullptr;
+	Score* score2 = nullptr;
 
 public:
 	inline vector<EngineObject*> Get() const { return engineObjects; }

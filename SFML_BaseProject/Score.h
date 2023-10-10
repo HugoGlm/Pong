@@ -12,7 +12,9 @@ private:
 public:
 	Score(const sf::Vector2f& _position, const int& _currentScore, const int& _scoreSize, const sf::Color& _scoreColor);
 	~Score();
+	int GetCurrentScore();
 	virtual void Draw(RenderWindow& _window) override;
+
 	
 
 };
