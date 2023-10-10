@@ -1,10 +1,36 @@
-﻿  Content.cpp
-D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(30,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+﻿  Ball.cpp
+  Content.cpp
+D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(32,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(30,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(32,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(34,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(34,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(36,90): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(36,75): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(36,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float

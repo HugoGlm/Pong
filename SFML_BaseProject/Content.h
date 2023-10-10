@@ -3,6 +3,7 @@
 #include "EngineObject.h"
 #include "ShapeCore.h"
 #include "Player.h"
+#include "Ball.h"
 
 using namespace std;
 class Content
@@ -18,6 +19,11 @@ class Content
 
 	Player* player1 = nullptr;
 	Player* player2 = nullptr;
+
+	Ball* ball = nullptr;
+
+	Line* line = nullptr;
+
 public:
 	inline vector<EngineObject*> Get() const { return engineObjects; }
 	Content(RenderWindow* _render);

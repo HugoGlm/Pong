@@ -29,10 +29,16 @@ Content::Content(RenderWindow* _render)
 	//makeSquareButton->OnClick().Bind(this, &Content::MakeSquare);
 
 	player1 = new Player(FVector(50, 50));
-	player2 = new Player(FVector(ViewPort::Width - 50, ViewPort::Height - 50));
+	player2 = new Player(FVector(ViewPort::Width - 50, ViewPort::Height - 120));
+
+	ball = new Ball(FVector(ViewPort::Width / 2, ViewPort::Height / 2));
+
+	line = new Line(FVector(ViewPort::Width / 2, 0), FVector(ViewPort::Width / 2, ViewPort::Height));
 
 	engineObjects.push_back(player1);
 	engineObjects.push_back(player2);
+	engineObjects.push_back(ball);
+	engineObjects.push_back(line);
 }
 
 Content::~Content()
@@ -47,6 +53,8 @@ void Content::ContentTick()
 {
 	player1->Move(Keyboard::Key::Z, Keyboard::Key::S);
 	player2->Move(Keyboard::Key::Up, Keyboard::Key::Down);
+	
+	ball->Move();
 
 	/*makeTriangleButton->IsClicked();
 	makeCircleButton->IsClicked();
