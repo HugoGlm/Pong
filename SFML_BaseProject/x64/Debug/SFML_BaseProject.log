@@ -1,73 +1,47 @@
-﻿  Ball.cpp
-D:\PROG-2\Pong\SFML_BaseProject\Ball.cpp(23,66): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+﻿  Content.cpp
+C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(10,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\PROG-2\Pong\SFML_BaseProject\Ball.cpp(23,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(10,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-  Content.cpp
-D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(10,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(12,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(10,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(12,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(12,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(14,90): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(12,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(14,75): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(14,90): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(14,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(14,75): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(16,46): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(14,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(17,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-  GameEngine.cpp
-  Grid.cpp
-D:\PROG-2\Pong\SFML_BaseProject\Grid.cpp(8,56): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-D:\PROG-2\Pong\SFML_BaseProject\Grid.cpp(8,41): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-D:\PROG-2\Pong\SFML_BaseProject\Grid.cpp(10,65): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-D:\PROG-2\Pong\SFML_BaseProject\Grid.cpp(10,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-  SFML_BaseProject.cpp
-  ViewPort.cpp
-  Generating Code...
-  SFML_BaseProject.vcxproj -> D:\PROG-2\Pong\x64\Debug\SFML_BaseProject.exe
+  SFML_BaseProject.vcxproj -> C:\Users\MONT0602\Documents\GitHub\Pong\x64\Debug\SFML_BaseProject.exe

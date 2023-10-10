@@ -13,8 +13,8 @@ Content::Content(RenderWindow* _render)
 
 	line = new Line(FVector(ViewPort::Width / 2, 0), FVector(ViewPort::Width / 2, ViewPort::Height));
 
-	score1 = new Score(FVector(300, 25), 0, 35, colorPlayer1);
-	score2 = new Score(FVector(450, 25), 0, 35, colorPlayer2);
+	score1 = new Score(FVector(ViewPort::Width/2- 35, 25), 0, 35, colorPlayer1);
+	score2 = new Score(FVector(ViewPort::Width/2 + 25, 25), 0, 35, colorPlayer2);
 
 	engineObjects.push_back(player1);
 	engineObjects.push_back(player2);
@@ -41,7 +41,7 @@ void Content::ContentTick()
 	{
 		player1->Move(Keyboard::Key::Z, Keyboard::Key::S);
 		player2->Move(Keyboard::Key::Up, Keyboard::Key::Down);
-		ball->Move(4);
+		ball->Move(2);
 		if (!ball->IsBorder())
 		{
 			score1->SetCurrentScore(1);
