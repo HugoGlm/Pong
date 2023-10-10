@@ -1,2 +1,41 @@
-﻿  SFML_BaseProject.cpp
-  SFML_BaseProject.vcxproj -> C:\Users\Sebastien\source\repos\SFML_BaseProject\x64\Debug\SFML_BaseProject.exe
+﻿  Button.cpp
+  Circle.cpp
+D:\PROG-2\Pong\SFML_BaseProject\Circle.cpp(5,23): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  CircleVertex.cpp
+D:\PROG-2\Pong\SFML_BaseProject\CircleVertex.cpp(13,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\CircleVertex.cpp(13,7): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\CircleVertex.cpp(14,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\CircleVertex.cpp(14,7): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  Content.cpp
+  Database.cpp
+  EngineObject.cpp
+  GameEngine.cpp
+  Grid.cpp
+D:\PROG-2\Pong\SFML_BaseProject\Grid.cpp(8,56): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\PROG-2\Pong\SFML_BaseProject\Grid.cpp(8,41): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\PROG-2\Pong\SFML_BaseProject\Grid.cpp(10,65): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\PROG-2\Pong\SFML_BaseProject\Grid.cpp(10,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Line.cpp
+  SFML_BaseProject.cpp
+  Square.cpp
+D:\PROG-2\Pong\SFML_BaseProject\Square.cpp(5,23): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  Triangle.cpp
+  ViewPort.cpp
+  Generating Code...
+  SFML_BaseProject.vcxproj -> D:\PROG-2\Pong\x64\Debug\SFML_BaseProject.exe
