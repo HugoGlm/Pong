@@ -2,6 +2,7 @@
 #include <vector>
 #include "EngineObject.h"
 #include "ShapeCore.h"
+#include "Player.h"
 
 using namespace std;
 class Content
@@ -10,9 +11,13 @@ class Content
 	Button* makeTriangleButton = nullptr, 
 		*makeCircleButton = nullptr, 
 		*makeSquareButton = nullptr;
+
 	Triangle* triangle = nullptr;
 	Circle* circle = nullptr;
 	Square* square = nullptr;
+
+	Player* player1 = nullptr;
+	Player* player2 = nullptr;
 public:
 	inline vector<EngineObject*> Get() const { return engineObjects; }
 	Content(RenderWindow* _render);

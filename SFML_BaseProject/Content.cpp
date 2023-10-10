@@ -1,6 +1,7 @@
 #include "Content.h"
 #include "ShapeCore.h"
 #include "ViewPort.h"
+#include "Player.h"
 #include <iostream>
 
 Content::Content(RenderWindow* _render)
@@ -13,17 +14,23 @@ Content::Content(RenderWindow* _render)
 
 	//engineObjects.push_back(new Grid(50));
 
-	makeTriangleButton = new Button(FVector(100, 100), FVector(100, 50), "Make Triangle", _render);
-	makeCircleButton = new Button(FVector(300, 100), FVector(100, 50), "Make Circle", _render);
-	makeSquareButton = new Button(FVector(500, 100), FVector(100, 50), "Make Square", _render);
+	//makeTriangleButton = new Button(FVector(100, 100), FVector(100, 50), "Make Triangle", _render);
+	//makeCircleButton = new Button(FVector(300, 100), FVector(100, 50), "Make Circle", _render);
+	//makeSquareButton = new Button(FVector(500, 100), FVector(100, 50), "Make Square", _render);
 
-	engineObjects.push_back(makeTriangleButton);
-	engineObjects.push_back(makeCircleButton);
-	engineObjects.push_back(makeSquareButton);
+	//engineObjects.push_back(makeTriangleButton);
+	//engineObjects.push_back(makeCircleButton);
+	//engineObjects.push_back(makeSquareButton);
 
-	makeTriangleButton->OnClick().Bind(this, &Content::MakeTriangle);
-	makeCircleButton->OnClick().Bind(this, &Content::MakeCircle);
-	makeSquareButton->OnClick().Bind(this, &Content::MakeSquare);
+	//makeTriangleButton->OnClick().Bind(this, &Content::MakeTriangle);
+	//makeCircleButton->OnClick().Bind(this, &Content::MakeCircle);
+	//makeSquareButton->OnClick().Bind(this, &Content::MakeSquare);
+
+	player1 = new Player(FVector(50, 50));
+	player2 = new Player(FVector(ViewPort::Width - 50, ViewPort::Height - 50));
+
+	engineObjects.push_back(player1);
+	engineObjects.push_back(player2);
 }
 
 Content::~Content()
@@ -36,9 +43,12 @@ Content::~Content()
 
 void Content::ContentTick()
 {
-	makeTriangleButton->IsClicked();
+	player1->Move(Keyboard::Key::Z, Keyboard::Key::S);
+	player2->Move(Keyboard::Key::Up, Keyboard::Key::Down);
+
+	/*makeTriangleButton->IsClicked();
 	makeCircleButton->IsClicked();
-	makeSquareButton->IsClicked();
+	makeSquareButton->IsClicked();*/
 	//if (makeTriangleButton && makeTriangleButton->IsClicked())
 	//	ViewPort::SetShape(new Triangle(Triangle(FVector(200, 200), FVector(300, 200), FVector(200, 400), Color::Red)));
 
