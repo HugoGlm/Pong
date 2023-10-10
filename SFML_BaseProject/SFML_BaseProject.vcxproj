@@ -144,6 +144,7 @@
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="Grid.cpp" />
     <ClCompile Include="Line.cpp" />
+    <ClCompile Include="Score.cpp" />
     <ClCompile Include="SFML_BaseProject.cpp" />
     <ClCompile Include="Square.cpp" />
     <ClCompile Include="Triangle.cpp" />
@@ -161,6 +162,7 @@
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="Grid.h" />
     <ClInclude Include="Line.h" />
+    <ClInclude Include="Score.h" />
     <ClInclude Include="SFMLCore.h" />
     <ClInclude Include="ShapeCore.h" />
     <ClInclude Include="Square.h" />
