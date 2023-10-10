@@ -14,7 +14,7 @@ public:
 
 	bool IsScoreMax();
 	int GetScore();
-	void GameWin();
+	bool GameWin();
 	virtual void Draw(RenderWindow& _window) override;
 };
 

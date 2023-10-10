@@ -11,32 +11,25 @@ using namespace std;
 class Content
 {
 	vector<EngineObject*> engineObjects;
-	Button* makeTriangleButton = nullptr, 
-		*makeCircleButton = nullptr, 
-		*makeSquareButton = nullptr;
-
-	Triangle* triangle = nullptr;
-	Circle* circle = nullptr;
-	Square* square = nullptr;
 
 	Player* player1 = nullptr;
 	Player* player2 = nullptr;
+
+	Color colorPlayer1 = Color::Red;
+	Color colorPlayer2 = Color::Blue;
 
 	Ball* ball = nullptr;
 
 	Line* line = nullptr;
 
-
 	Score* score1 = nullptr;
 	Score* score2 = nullptr;
 
+	bool isPlaying = false;
 public:
 	inline vector<EngineObject*> Get() const { return engineObjects; }
 	Content(RenderWindow* _render);
 	~Content();
 	void ContentTick();
-	void MakeTriangle();
-	void MakeCircle();
-	void MakeSquare();
 };
 

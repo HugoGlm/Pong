@@ -26,10 +26,12 @@ int ScoreItem::GetScore()
     return score->GetCurrentScore();
 }
 
-void ScoreItem::GameWin()
+bool ScoreItem::GameWin()
 {
     // TODO mettre le jeu sur pause dans le viewport via un accesseur d'un booleen de cette classe (bool isPaused)
-
+    if (IsScoreMax())
+        return true;
+    return false;
     // TODO récupérer le nom du joueur et afficher qu'il a gagné la partie dans un texte
 
 }

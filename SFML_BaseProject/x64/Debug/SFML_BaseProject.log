@@ -1,91 +1,73 @@
 ﻿  Ball.cpp
-  Button.cpp
-  Circle.cpp
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Circle.cpp(5,23): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-  CircleVertex.cpp
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\CircleVertex.cpp(13,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\CircleVertex.cpp(13,7): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\CircleVertex.cpp(14,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\CircleVertex.cpp(14,7): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\Ball.cpp(23,66): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\PROG-2\Pong\SFML_BaseProject\Ball.cpp(23,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
   Content.cpp
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(34,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(10,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(34,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(10,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(36,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(12,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(36,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(12,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(38,90): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(14,90): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(38,75): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(14,75): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(38,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\Content.cpp(14,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(45,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Content.cpp(45,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-  Database.cpp
-  EngineObject.cpp
   GameEngine.cpp
   Grid.cpp
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Grid.cpp(8,56): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\Grid.cpp(8,56): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Grid.cpp(8,41): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\Grid.cpp(8,41): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Grid.cpp(10,65): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\Grid.cpp(10,65): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Grid.cpp(10,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\PROG-2\Pong\SFML_BaseProject\Grid.cpp(10,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-  Line.cpp
-  Player.cpp
-  Score.cpp
-  ScoreItem.cpp
   SFML_BaseProject.cpp
-  Square.cpp
-C:\Users\MONT0602\Documents\GitHub\Pong\SFML_BaseProject\Square.cpp(5,23): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-  Triangle.cpp
   ViewPort.cpp
   Generating Code...
-  LINK : C:\Users\MONT0602\Documents\GitHub\Pong\x64\Debug\SFML_BaseProject.exe not found or not built by the last incremental link; performing full link
-  SFML_BaseProject.vcxproj -> C:\Users\MONT0602\Documents\GitHub\Pong\x64\Debug\SFML_BaseProject.exe
+  SFML_BaseProject.vcxproj -> D:\PROG-2\Pong\x64\Debug\SFML_BaseProject.exe
